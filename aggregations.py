@@ -106,16 +106,16 @@ def add_ids(root_dir,csv_dir,id_file,no_id_files,pid,sid):
     df_merged.to_csv(f'{file_dir}ID_{file_no_id}',index=False)
 
 
-def merge_dfs(root_dir:str,agg_dir:str, app_file: str,
+def merge_dfs(root_dir:str,agg_dir:str, app_file_csv: str,
                agg_csv_files: list, common_key: str) -> None:
-    merged_df = pd.read_csv(app_file)
+    merged_df = pd.read_csv(app_file_csv)
     for agg_file in agg_csv_files:
       agg_file =  f'{root_dir}{agg_dir}{agg_file}'
       df = pd.read_csv(os.path.join(root_dir, agg_file))
       merged_df = pd.merge(merged_df, df, on=common_key,how='left')
       del df
     merged_df.to_csv(f'{root_dir}csv/merged.csv',index=False)
-    del merged_df
+    return merged_df
 
 
 

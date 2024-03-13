@@ -43,3 +43,6 @@
     classifier should be trained on as big data set as possible.
     
     Security, monitoring and scalability should be consider together with customer.
+
+    Dependencies:
+    this project was done using Google Colab, one library to be installed is shap.

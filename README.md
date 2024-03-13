@@ -37,10 +37,9 @@
     it is assumed that current classification is source of truth.
     aditional attention should be given to outliers in prodcution environment.
     divide data into high amount and low amount loans.
-    target for better recall for high amount loans as risk of false negative would give bigger impact. 
-    display of shap values for individual prediction, to see which client featues are most impactful.
-    predictions can be divided into three categories: positive, negative and uncertain.
-    application infrsatructure could be either in cloud or on premise in customer datacenter.
+    target for better recall for high amount loans. 
+    display of shap values for individual predictions.
+    predictions can be divided into: positive, negative and uncertain.
     classifier should be trained on as big data set as possible.
     
     Security, monitoring and scalability should be consider together with customer.

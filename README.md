@@ -10,7 +10,7 @@
     Red line represent positive - in our case the onse that did not get loans.
     Green negative.
     Proportion here is positive/negative, depending on data distribution.
-    Downsampling is done using accending of valuable columns and modulus.
+    Downsampling is done using accendance of valuable columns and modulus.
     SHAP values provide valuable insights into feature importance: ttps://arxiv.org/pdf/1802.03888.pdf
 
     

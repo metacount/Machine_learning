@@ -32,6 +32,5 @@ The f1-score is the harmonic mean between precision & recall
 The support is the total number of true instances for a particular class.
 
 In this scenario one way would be to divide data into high amount loans and low amountloans.
-
-Then focus on better recall for high amount loans as risk of false negative would give bigger impact.
+Then target for better recall for high amount loans as risk of false negative would give bigger impact.
 

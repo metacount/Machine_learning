@@ -17,10 +17,11 @@ SHAP values provide valuable insights into feature importance: ttps://arxiv.org/
 
 
 In Machine learning part multiple classifier are created and tested to get best performance.
-First base classifier is tested with application data.
+Classifiers are mesuare by Area Under The Curve for Receiver Operating Characteristics(auc) score.
+First base classifier is tested with application data, which provided 0,67 score.
 Aggregation of historical information is performed.
 As LGB Calssifier handles outliers and NaN values, only anomalies where removed during feature engineering.
-Final roc auc score in Kaggle late sumbision is 0.77.
+Final score in Kaggle late sumbision is 0.77.
 
 
 Classifier performance is provided in classification reports.

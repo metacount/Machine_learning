@@ -31,6 +31,15 @@ Recall proportion of actual positive cases that were correctly identified.
 The f1-score is the harmonic mean between precision & recall
 The support is the total number of true instances for a particular class.
 
-In this scenario one way would be to divide data into high amount loans and low amountloans.
+In this scenario one way would be to divide data into high amount and low amount loans.
 Then target for better recall for high amount loans as risk of false negative would give bigger impact.
 
+Regarding eda and classification impact on buisness:
+
+it is assumed that current classification is source of truth.
+aditional attention should be given to outliers.
+display of shap values for individual prediction, so that reviewer can see which client featues are most impactful.
+predictions can be divided into three categories, positive, negative and uncertain.
+application infrsatructure could be either in cloud or on premise in customer datacenter.
+classifier should be trained on as big data set as possible.
+when new application is provided prediction is done using appcation and historical aggregated client data.

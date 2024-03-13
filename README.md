@@ -42,6 +42,5 @@ display of shap values for individual prediction, so that reviewer can see which
 predictions can be divided into three categories, positive, negative and uncertain.
 application infrsatructure could be either in cloud or on premise in customer datacenter.
 classifier should be trained on as big data set as possible.
-when new application is provided prediction is done using appcation and historical aggregated client data.
 
 Security, monitoring and scalability should be consider together with customer.

@@ -1,4 +1,5 @@
-    Project tends to create valuable tools for data analysis and calssification. 
+    Project tends to create valuable tools for data analysis and classification. 
+    Used datset: https://www.kaggle.com/c/home-credit-default-risk/
 
     EDA notebook
     

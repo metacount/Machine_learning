@@ -18,7 +18,7 @@
     Aggregation of historical information is performed.
     As LGB Calssifier handles outliers and NaN values, only anomalies removed.
     Final score in Kaggle late sumbision is 0.77.
-    Classifier performance is provided in classification reports.
+    Classifier performance and conclusion is provided in classification reports.
 
 
     EDA and classification impact on buisness
